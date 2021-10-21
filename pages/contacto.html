@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/cd3510e84c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="../index.html"><img class="logo" src="../images/logo1.png" alt="music shop logo"></a>
+        </div>
+
+        <nav>
+            <form class="nav-search" action="get"><input type="text" placeholder="Qué necesitás?"></form>
+            <ul>
+                <li class="nav-item"><a href="nosotros.html" class="nav-item-link">Nosotros</a></li>
+                <li class="nav-item"><a href="productos.html" class="nav-item-link">Productos</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-item-link">Contacto</a></li>
+                <li class="nav-item"><a href="servicios.html" class="nav-item-link">Servicios</a></li>
+            </ul>
+        </nav>
+        <div class="redes-container">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram icon-white "></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square icon-white"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="contacto-background">
+            <h1>Contacto</h1>
+            <section>
+                <form class="contact-form" action="">
+                    <label for="name">Nombre</label>
+                    <input id="name" type="text" name="name" placeholder="Nombre">
+                    <label for="mail">Email</label>
+                    <input id="mail" type="text" name="mail" placeholder="ejemplo@tumail.com">
+                    <label for="instrumento">Instrumento</label>
+                    <select name="instrumento" id="instrumento">
+                        <option value="">Seleccioná tu instrumento</option>
+                        <option value="guitarra">Guitarra</option>
+                        <option value="bateria">Bateria</option>
+                        <option value="bajo">Bajo</option>
+                        <option value="piano">Piano</option>
+                    </select>
+                    <label for="pais">País</label>
+                    <label for="argentina">Argentina</label>
+                    <input id="argentina" type="radio" name="pais" value="argentina">
+                    <label for="chile">Chile</label>
+                    <input id="chile" type="radio" name="pais" value="chile">
+                    <label for="uruguay">Uruguay</label>
+                    <input id="uruguay" type="radio" name="pais" value="uruguay">
+                    <label for="otro">Otro</label>
+                    <input id="otro" type="radio" name="pais" value="otro">
+                    <label for="consulta">Consulta</label>
+                    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear">
+                </form>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-row1">
+            <div class="footer-marcas-container"><img src="../images/marcas-instrumentos.png"
+                    alt="marcas de instrumentos">
+            </div>
+            <div class="footer-info-container">
+                <p>Talcahuano 500</p>
+                <p>+54 4321-1234</p>
+                <p>themusicshop@gmail.com</p>
+            </div>
+            <div class="footer-maps-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0533243537316!2d-58.3874882847703!3d-34.602813080459704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac66f7ffba7%3A0x77e29dec953f1f05!2sTalcahuano%20500%2C%20C1048%20CABA!5e0!3m2!1ses!2sar!4v1632947138808!5m2!1ses!2sar"
+                    width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+        <div class="footer-row2">
+            <p>The Music Shop, hecho por: Alejandro Binker</p>
+        </div>
+    </footer>
+</body>
+
+</html>
