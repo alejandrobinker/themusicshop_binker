@@ -1,0 +1,57 @@
+.logo-container {
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.navbar {
+    height: 7rem;
+    background-color: $primary-color;
+}
+
+.navbar-brand {
+    margin-left: 4rem;
+    img {
+        height: 5.5rem;
+    }
+}
+
+.navbar-toggler {
+    margin-right: 3rem;
+    border-color: white;
+}
+
+.navbar-collapse {
+    background-color: $primary-color;
+    font-size: 30px;
+    justify-content: end;
+}
+
+.nav-item {
+    margin: 0 0.5rem;
+}
+
+.nav-link {
+    position: relative;
+    color: rgb(224, 219, 219);
+    text-decoration: none;
+    &:hover {
+        color: white;
+        &:after {
+            width: 100%;
+        }
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        background-color: white;
+        height: 3px;
+        width: 0%;
+        transition: 0.5s;
+    }
+}

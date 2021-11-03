@@ -1,288 +1,252 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-/*-------------------------HEADER--------------*/
-
 .logo-container {
-    margin-left: 6rem;
-    margin-top: 1rem;
+  margin-left: 6rem;
+  margin-top: 1rem;
 }
 
 .logo {
-    height: 6rem
+  height: 6rem;
 }
 
 .navbar {
-    height: 7rem;
-    background-color: rgb(19, 17, 17);
+  height: 7rem;
+  background-color: #131111;
 }
 
 .navbar-brand {
-    margin-left: 4rem;
+  margin-left: 4rem;
 }
-
 .navbar-brand img {
-    height: 5.5rem;
+  height: 5.5rem;
 }
 
 .navbar-toggler {
-    margin-right: 3rem;
-    border-color: white;
+  margin-right: 3rem;
+  border-color: white;
 }
-
 
 .navbar-collapse {
-    background-color: rgb(19, 17, 17);
-    font-size: 30px;
-    justify-content: end;
-}
-
-.nav-search {
-    margin-left: 10rem;
-    width: 35rem;
-}
-
-.search-icon {
-    border-radius: 50%;
-    color: white;
-}
-
-.nav-search input {
-    border-radius: 10px;
-    font-size: 1rem;
-    background-color: rgb(19, 17, 17);
-    border: 1px solid white;
-    color: white;
-}
-
-.nav-search input:focus {
-    background-color: rgb(19, 17, 17);
-    color: white;
+  background-color: #131111;
+  font-size: 30px;
+  justify-content: end;
 }
 
 .nav-item {
-    margin: 0 0.5rem;
+  margin: 0 0.5rem;
 }
 
 .nav-link {
-    position: relative;
-    color: rgb(224, 219, 219);
-    text-decoration: none;
+  position: relative;
+  color: #e0dbdb;
+  text-decoration: none;
 }
-
 .nav-link:hover {
-    color: white;
+  color: white;
 }
-
-.nav-link:after {
-    content: "";
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    background-color: white;
-    height: 3px;
-    width: 0%;
-    transition: 0.5s;
-}
-
 .nav-link:hover:after {
-    width: 100%;
+  width: 100%;
 }
-
-/*-------------------------INDEX--------------------*/
-
-.index-background {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: white;
-    height: 65rem;
-    padding-top: 105rem;
-    background-image: url(../images/background\ index.jpg);
-    background-color: rgb(5, 5, 46);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+.nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: white;
+  height: 3px;
+  width: 0%;
+  transition: 0.5s;
 }
-.logo2{
-    position: absolute;
-    position: fixed;
-    margin-bottom: 60rem;
-}
-
-.carousel-container {
-    background-color: rgb(29, 29, 29);
-}
-
-.carousel-item img {
-    background-color: rgb(29, 29, 29);
-}
-
-.productos-destacados {
-    z-index: 1;
-    background-color: white;
-    color: black;
-}
-
-/*-------------------------FOOTER----------------*/
 
 footer {
-    position: relative;
-    z-index: 1;
-    background-color: rgb(19, 17, 17);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 2rem;
+  position: relative;
+  z-index: 1;
+  background-color: #131111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 2rem;
 }
-
 footer hr {
-    border: none;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.178);
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.178);
 }
 
 .footer-row1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2rem;
 }
 
 .footer-marcas-container img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .footer-nav {
-    margin-top: 1rem;
-    word-spacing: 1rem;
+  margin-top: 1rem;
+  word-spacing: 1rem;
 }
-
 .footer-nav ul {
-    text-align: center;
-    padding-left: 0;
+  text-align: center;
+  padding-left: 0;
 }
 
 .footer-nav-item {
-    list-style: none;
-    padding: 1rem;
+  list-style: none;
+  padding: 1rem;
 }
 
 .footer-nav-link {
-    color: rgba(172, 169, 169, 0.39);
-    text-decoration: none;
+  color: rgba(172, 169, 169, 0.39);
+  text-decoration: none;
 }
-
 .footer-nav-link:hover {
-    color: white;
+  color: white;
 }
 
 .footer-redes {
-    text-align: center;
+  text-align: center;
 }
 
 .icon-white {
-    color: white;
-    font-size: 2rem;
+  color: white;
+  font-size: 2rem;
 }
 
 .footer-maps-container {
-    height: 22rem;
+  height: 22rem;
 }
-
 .footer-maps-container p {
-    color: rgba(172, 169, 169, 0.39);
-    margin-bottom: 0;
+  color: rgba(172, 169, 169, 0.39);
+  margin-bottom: 0;
 }
 
 .footer-row2 {
-    text-align: center;
-    width: 100%;
-    margin-top: 5rem;
-    border-top: 1px solid;
-    padding-top: 0.5rem;
-    color: rgba(172, 169, 169, 0.39);
+  text-align: center;
+  width: 100%;
+  margin-top: 5rem;
+  border-top: 1px solid;
+  padding-top: 0.5rem;
+  color: rgba(172, 169, 169, 0.39);
 }
 
-/*-------------------------NOSOTROS--------------------*/
+.index-background {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  height: 65rem;
+  padding-top: 105rem;
+  background-image: url(../images/background\ index.jpg);
+  background-color: #131111;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.logo2 {
+  position: absolute;
+  position: fixed;
+  margin-bottom: 60rem;
+}
+
+.carousel-container {
+  background-color: #131111;
+}
+
+.carousel-item img {
+  background-color: #131111;
+}
+
+.productos-destacados {
+  z-index: 1;
+  background-color: white;
+  color: #131111;
+}
 
 .nosotros-background {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    margin: auto;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  margin: auto;
 }
 
-/*------------------------PRODUCTOS--------------------*/
-
 .productos-background {
-    display: flex;
-    padding: 15rem 20rem 5rem;
+  display: flex;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
 }
 
 .filtros {
-    border-right: solid black 1px;
-    padding-right: 1rem;
+  border-right: solid black 1px;
+  padding-left: 3rem;
+  flex: content;
 }
 
 .filtros-container {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
 }
-
 .filtros-container p {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
-
 .filtros-container ul {
-    list-style: none;
-    line-height: 30px;
-    width: max-content;
-}
-
-.productos h1 {
-    margin-left: 1rem;
+  padding-left: 0;
+  list-style: none;
+  line-height: 30px;
+  width: max-content;
 }
 
 .productos-grid {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.items {
-    margin: 1rem;
+.card {
+  width: 20rem;
+  margin: 1rem;
+  box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2), 0 5px 15px 0 rgba(37, 44, 97, 0.15);
+  transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card img {
+  border-bottom: 1px solid;
+  height: 300px;
+  object-fit: contain;
 }
 
-.items-img img {
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
+.precio {
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.items-info {
-    font-weight: bold;
+.fa-shopping-cart {
+  margin-left: 5px;
 }
-
-/*-----------------CONTACTO-----------------------*/
 
 .contacto-background {
-    padding-top: 10rem;
+  padding-top: 10rem;
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
-
-/*-------------------SERVICIOS----------------------*/
 
 .servicios-background {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
+
+/*# sourceMappingURL=style.css.map */

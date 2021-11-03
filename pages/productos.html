@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/cd3510e84c.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
 </head>
 
@@ -17,8 +19,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
             <a class="navbar-brand" href="../index.html"><img src="../images/logo1.png" alt="music shop logo"></a>
-            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -32,8 +35,11 @@
         </nav>
     </header>
     <main>
-        <div class="productos-background">
-            <div class="filtros">
+        <div class="row productos-background">
+            <div class="row text-center">
+                <h1>Productos</h1>
+            </div>
+            <div class="filtros col-12">
                 <div class="filtros-container">
                     <p>Instrumento</p>
                     <ul>
@@ -60,11 +66,11 @@
                     <ul>
                         <li>
                             <input id="precio1" type="radio" name="precio">
-                            <label for="precio1">$0 - $5000</label>
+                            <label for="precio1">$0 - $50.000</label>
                         </li>
                         <li>
                             <input id="precio2" type="radio" name="precio">
-                            <label for="precio2">$5000 - $10.000</label>
+                            <label for="precio2">$50.000 - $100.000</label>
                         </li>
                     </ul>
                 </div>
@@ -95,43 +101,62 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="productos">
-                <h1>Productos</h1>
-                <div class="productos-grid">
-                    <div class="items">
-                        <div class="items-img">
-                            <img src="../images/guitarra1.webp" alt="">
-                        </div>
-                        <div class="items-info">Lorem ipsum dolor sit.</div>
+            <div class="productos-grid justify-content-center justify-content-lg-start col-12 col-lg-9 mt-2">
+                <div class="card">
+                    <img class="card-img-top" src="../images/guitarra1.webp" alt="guitarra1">
+                    <div class="card-body">
+                        <h5 class="card-title">Guitarra electrica Ibanez Sp2</h5>
+                        <p class="precio">$66.999</p>
+                        <a href="#" class="btn btn-dark">Comprar<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
                     </div>
-                    <div class="productos-grid">
-                        <div class="items">
-                            <div class="items-img">
-                                <img src="../images/bajo1.webp" alt="">
-                            </div>
-                            <div class="items-info">Lorem ipsum dolor sit.</div>
-                        </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../images/bajo1.webp" alt="bajo1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bajo Fender Jazz</h5>
+                        <p class="precio">$57.999</p>
+                        <a href="#" class="btn btn-dark">Comprar<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
                     </div>
-                    <div class="productos-grid">
-                        <div class="items">
-                            <div class="items-img">
-                                <img src="../images/bateria1.webp" alt="">
-                            </div>
-                            <div class="items-info">Lorem ipsum dolor sit.</div>
-                        </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../images/bateria1.webp" alt="bateria1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bateria Pearl 5 cuerpos </h5>
+                        <p class="precio">$87.999</p>
+                        <a href="#" class="btn btn-dark">Comprar<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
                     </div>
-                    <div class="productos-grid">
-                        <div class="items">
-                            <div class="items-img">
-                                <img src="../images/piano1.webp" alt="">
-                            </div>
-                            <div class="items-info">Lorem ipsum dolor sit.</div>
-                        </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../images/piano1.webp" alt="piano1">
+                    <div class="card-body">
+                        <h5 class="card-title">Teclado Yamaha P45</h5>
+                        <p class="precio">$77.999</p>
+                        <a href="#" class="btn btn-dark">Comprar<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../images/guitarra2.webp" alt="guitarra2">
+                    <div class="card-body">
+                        <h5 class="card-title">Guitarra EpiPhone Les Paul Standard 60s</h5>
+                        <p class="precio">$61.999</p>
+                        <a href="#" class="btn btn-dark">Comprar<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../images/bateria2.webp" alt="bateria2">
+                    <div class="card-body">
+                        <h5 class="card-title">Bateria Mapex Ma-504sfrw 5 cuerpos</h5>
+                        <p class="precio">$97.999</p>
+                        <a href="#" class="btn btn-dark">Comprar<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
     </main>
     <footer>
         <div class="footer-row1 row">
