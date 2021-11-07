@@ -219,8 +219,9 @@ footer hr {
 }
 .nosotros-background {
   padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
   margin: auto;
+  font-size: 1.5rem;
 }
 
 .productos-background {
@@ -282,17 +283,51 @@ footer hr {
 
 .contacto-background {
   padding-top: 10rem;
+  padding-bottom: 5rem;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
+.contact-aside {
+  background: #131111;
+  padding: 2rem 1rem 2rem 2rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  color: white;
 }
 
-.servicios-background {
+.contact-form button {
+  background-color: #131111;
+  color: white;
+  margin-top: 1rem;
+}
+
+.servicios__background {
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+
+.servicios__container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.servicios__titulo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.servicios__contenido {
+  height: 18rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  transition: 0.5s;
+  box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2), 0 5px 15px 0 rgba(37, 44, 97, 0.15);
+}
+.servicios__contenido:hover {
+  transform: scale(1.1);
+}
+
+.servicios__icon {
+  font-size: 4.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
