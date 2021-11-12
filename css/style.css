@@ -11193,6 +11193,9 @@ body {
   width: 0%;
   transition: 0.5s;
 }
+.nav-link:focus {
+  color: white;
+}
 
 footer {
   position: relative;
