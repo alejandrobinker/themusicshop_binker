@@ -36,7 +36,7 @@
     color: $primary-color;
 }
 .seccion-destacados {
-    border-bottom: 1px solid $footer-font-color;
+    border-bottom: 1px solid $border-color;
     h1 {
         margin-top: 3rem;
     }
@@ -67,10 +67,10 @@
 }
 @media (min-width: 992px) {
     .envios-container {
-        border-right: 1px solid $footer-font-color;
+        border-right: 1px solid $border-color;
     }
     .compra-container {
-        border-right: 1px solid $footer-font-color;
+        border-right: 1px solid $border-color;
     }
 }
 @media (min-width: 1200px) {
