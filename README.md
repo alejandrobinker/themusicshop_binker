@@ -1,10 +1,14 @@
 # themusicshop_binker
-Tienda de música
+Tienda estática de música, simula la vista de un sitio web e-commerce con sus secciones.
 
-Hecho con: HTML5 CSS3
+Made with: HTML5 CSS3
 
 Frameworks: Bootstrap 5
 
 Extensiones: Sass
 
-Autor: Alejandro Binker
+##In the project directory, you can run:
+
+### `npm install`
+
+Downloads all dependencies
